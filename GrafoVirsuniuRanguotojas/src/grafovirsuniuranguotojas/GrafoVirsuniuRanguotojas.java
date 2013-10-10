@@ -9,6 +9,10 @@ public class GrafoVirsuniuRanguotojas
 {
     public static void main(String[] args) 
     {
-        System.out.println("Labas!gddf");
+        System.out.println("Labass!");
+        System.out.println("Labas pasauli, tave sveikina Povilas!");
+        System.out.println("Gavau pofkes commitą, sveikinas Paulius");
+        System.out.println("zdarov, gavau Pauliaus, Rimvydas!");
+        System.out.println("Gooood");
     }
 }
