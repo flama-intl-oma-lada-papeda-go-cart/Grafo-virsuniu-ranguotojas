@@ -9,6 +9,6 @@ public class GrafoVirsuniuRanguotojas
 {
     public static void main(String[] args) 
     {
-        System.out.println("Labas!");
+        System.out.println("Labas!gddf");
     }
 }
