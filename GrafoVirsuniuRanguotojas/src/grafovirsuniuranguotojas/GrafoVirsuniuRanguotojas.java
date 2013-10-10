@@ -11,5 +11,6 @@ public class GrafoVirsuniuRanguotojas
     {
         System.out.println("Labas!");
         System.out.println("Labas pasauli, tave sveikina Povilas!");
+        System.out.println("Gavau pofkes commitą, sveikinas Paulius");
     }
 }
