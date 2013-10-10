@@ -9,7 +9,7 @@ public class GrafoVirsuniuRanguotojas
 {
     public static void main(String[] args) 
     {
-        System.out.println("Labas!");
+        System.out.println("Labass!");
         System.out.println("Labas pasauli, tave sveikina Povilas!");
     }
 }
