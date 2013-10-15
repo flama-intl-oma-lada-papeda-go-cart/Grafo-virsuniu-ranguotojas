@@ -14,5 +14,6 @@ public class GrafoVirsuniuRanguotojas
         System.out.println("Gavau pofkes commitą, sveikinas Paulius");
         System.out.println("zdarov, gavau Pauliaus, Rimvydas!");
         System.out.println("Gooood....");
+        System.out.println("Veikia ir man.");
     }
 }
