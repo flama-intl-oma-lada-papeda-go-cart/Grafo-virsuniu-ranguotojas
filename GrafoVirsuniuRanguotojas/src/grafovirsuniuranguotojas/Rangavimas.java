@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package grafovirsuniuranguotojas;
 
 /**
@@ -11,14 +7,15 @@ package grafovirsuniuranguotojas;
 public class Rangavimas {
 
     public static void imtiDuomenis(){
-        //Metodas, gauti duomenims.
+        //Metodas, gauti duomenims. Gaunama matrica.
     }
     
     public static void ranguoti(){
-        //Atliekami skaiciavimai, reikalingi suranguoti grafa.
+        //Atliekami skaiciavimai, reikalingi suranguoti grafui.
     }
     
     public static void siustiRezultatus(){ 
         //Pateikiami apskaičiuoti rezultatai.
+        //Jie pateikiami sarasu.
     }
 }
