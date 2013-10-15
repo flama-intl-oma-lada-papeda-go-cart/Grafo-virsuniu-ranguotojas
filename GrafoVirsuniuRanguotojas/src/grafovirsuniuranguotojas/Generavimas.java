@@ -6,7 +6,7 @@ package grafovirsuniuranguotojas;
 
 /**
  *
- * @author Povilas
+ * @author Povilas...
  */
 public class Generavimas {
     
