@@ -1,9 +1,7 @@
 package grafovirsuniuranguotojas;
 
 import java.util.LinkedList;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+
 
 /**
  * Pagrindinė atvaizdavimo klasė
@@ -12,22 +10,54 @@ import java.io.IOException;
  */
 public class Atvaizdavimas
 {
-    LinkedList r = gautiRanguotaGrafa();
+    LinkedList r = null;//cia ateina Alberto metodas
     
-    String konvertuoti_txt(String failas)
+    /**
+     * Sukuria paveikslą iš turimo ranguoto sąrašo
+     * @param pavadinimas
+     * @return 
+     */
+    String kurtiPaveiksla(String pavadinimas)
     {
         try
         {
-            BufferedWriter f = new BufferedWriter(new FileWriter(failas));
-        }catch (IOException e)
+            
+        }catch (Exception e)
         {
-            //Klaida įrašyme!
+            
         }
         return null;
     }
-    
-    LinkedList gautiRanguotaGrafa()
+    /**
+     * Sukuria tekstinį failą iš turimo ranguoto sąrašo.
+     * @param pavadinimas
+     * @return 
+     */
+    String kurtiTeksta(String pavadinimas)
     {
+        try
+        {
+            
+        }catch (Exception e)
+        {
+            
+        }
+        return null;
+    }
+    /**
+     * Sukuria java programėlę, kur galima interaktyviai peržiūrėti ranguotą sąrašą.
+     * @param pavadinimas
+     * @return 
+     */
+    String kurtiApp(String pavadinimas)
+    {
+        try
+        {
+            
+        }catch (Exception e)
+        {
+            
+        }
         return null;
     }
 }
