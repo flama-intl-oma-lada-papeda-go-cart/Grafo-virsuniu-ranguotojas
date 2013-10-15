@@ -13,7 +13,7 @@ public class Patikrinimas {
     
     boolean tikrintiMatmenis()
     {
-        return null;
+        return false;//kol nera, tol false :)
     }
     
     int[][] gautiMatrica()
