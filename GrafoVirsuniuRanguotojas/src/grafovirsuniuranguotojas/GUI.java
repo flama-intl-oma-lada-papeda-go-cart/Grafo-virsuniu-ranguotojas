@@ -23,13 +23,16 @@ public class GUI implements ActionListener
     
     // Grafinės sąsajos elementai
     protected JFrame pagrLangas;
+    protected GrafoPanele grafoPanele;
+    
     protected JMenuBar meniuJuosta;
     protected JMenu ivedimoMeniu;
     protected JMenu isvedimoMeniu;
     protected JMenu progMeniu;
     
     // logeris
-    protected final Logger logger = GrafoVirsuniuRanguotojas.LOGGER;
+    protected static final Logger logger = GrafoVirsuniuRanguotojas.LOGGER;
+    
     /**
      * Grąžina kokius lango matmenis reikia parinkti
      * @return ekrano matmenų matrica: [0] - plotis, [1] - aukstis
@@ -121,6 +124,12 @@ public class GUI implements ActionListener
         
         // meniu paruošimas
         paruostiMeniu();
+        grafoPanele = new GrafoPanele(m[0], m[1]);
+        Virsune[] virsunes = new Virsune[]{new Virsune(0,0,0,new int[]{1}, false), 
+                                           new Virsune(0,0,1,new int[]{2}, false), 
+                                           new Virsune(0,0,2,new int[]{0}, false)};
+        grafoPanele.atvaizduotiVirsunes(virsunes);
+        pagrLangas.add(grafoPanele);
         pagrLangas.setVisible(true);
     }
 }
