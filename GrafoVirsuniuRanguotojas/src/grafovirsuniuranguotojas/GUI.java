@@ -26,8 +26,7 @@ public class GUI implements ActionListener
     protected JMenuBar meniuJuosta;
     protected JMenu ivedimoMeniu;
     protected JMenu isvedimoMeniu;
-    protected JMenu apieMeniu;
-    protected JMenuItem isejimoIrasas;
+    protected JMenu progMeniu;
     
     // logeris
     protected final Logger logger = GrafoVirsuniuRanguotojas.LOGGER;
@@ -61,6 +60,16 @@ public class GUI implements ActionListener
     {
         meniuJuosta = new JMenuBar();
         
+        // informacijos apie programą meniu
+        progMeniu = new JMenu("Programa");
+        progMeniu.getAccessibleContext().setAccessibleDescription("Informacija apie programą");
+        meniuJuosta.add(progMeniu);
+        
+        //baigti programos darbą
+        JMenuItem isejimoIrasas = new JMenuItem("Išeiti");
+        isejimoIrasas.addActionListener((ActionListener)this);
+        progMeniu.add(isejimoIrasas);
+        
         // Duomenų įvedimas ir jo elementai
         ivedimoMeniu = new JMenu("Duomenų įvedimas");
         ivedimoMeniu.getAccessibleContext().setAccessibleDescription("Duomenų įvedimo meniu");
@@ -78,16 +87,6 @@ public class GUI implements ActionListener
         // paveikslėlių submeniu
         JMenu isbSub_pavMeniu = new JMenu("Paveikslėlis");
         isvedimoMeniu.add(isbSub_pavMeniu);
-        
-        // informacijos apie programą meniu
-        apieMeniu = new JMenu("Apie");
-        apieMeniu.getAccessibleContext().setAccessibleDescription("Informacija apie programą");
-        meniuJuosta.add(apieMeniu);
-        
-        //baigti programos darbą
-        isejimoIrasas = new JMenuItem("Išeiti");
-        isejimoIrasas.addActionListener((ActionListener)this);
-        meniuJuosta.add(isejimoIrasas);
         
         pagrLangas.setJMenuBar(meniuJuosta);
     }

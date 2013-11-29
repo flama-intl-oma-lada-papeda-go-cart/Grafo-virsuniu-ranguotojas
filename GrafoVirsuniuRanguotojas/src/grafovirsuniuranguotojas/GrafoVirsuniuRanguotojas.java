@@ -67,6 +67,7 @@ public class GrafoVirsuniuRanguotojas
     
     public static void main(String[] args) 
     {
+        //FIXME: reikia patobulinti struktūrą duomenų
         paruostiLogeri();
         paruostiGUI();
     }
