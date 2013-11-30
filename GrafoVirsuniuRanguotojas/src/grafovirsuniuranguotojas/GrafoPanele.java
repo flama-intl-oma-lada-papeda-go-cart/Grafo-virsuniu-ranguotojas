@@ -6,6 +6,8 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.Dimension;
 import java.awt.Graphics;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.event.MouseInputAdapter;
 
 
@@ -19,6 +21,7 @@ public class GrafoPanele extends JPanel
     int plotis;
     int ilgis;
     Virsune[] virsunes;
+    protected static final Logger logger = GrafoVirsuniuRanguotojas.LOGGER;
     /**
      * Paruošia grafų atvaizdavimo panelę
      * @since 2013-11-29
@@ -27,65 +30,82 @@ public class GrafoPanele extends JPanel
     {
         plotis = plo;
         ilgis = ilg;
-        MouseInputAdapter mia = new MouseInputAdapter()
-        {
-            @Override
-            public void mousePressed(MouseEvent e) 
-            {
-                for (Virsune v : virsunes) 
-                {
-                    if (new java.awt.Rectangle(v.getX(), v.getY(),20,20).contains(e.getX(), e.getY())) 
-                    {
-                        v.setMoving(true);
-                    }
-                }
-            }
-            
-            @Override
-            public void mouseReleased(MouseEvent e) 
-            {
-                for (Virsune v : virsunes) 
-                {
-                    v.setMoving(false);
-                }
-            }
-            
-            @Override
-            public void mouseDragged(MouseEvent e) 
-            {
-                for (Virsune v : virsunes) 
-                {
-                    if (v.isMoving()) 
-                    {
-                        boolean move = true;
-                        int x = e.getX() - 10;
-                        int y = e.getY() - 10;
-                        for (Virsune vk : virsunes) 
-                        {
-                            if (!vk.isMoving()) 
-                            {
-                                int dx = vk.getX() - x;
-                                int dy = vk.getY() - y;
-                                if ((dx*dx+dy*dy<=20*20)) 
-                                {
-                                    move = false;
-                                    break;
-                                }
-                            }
-                        }
-                        if (move) 
-                        {
-                            v.setX(x);
-                            v.setY(y);
-                            repaint();
-                        }
-                        break;
-                    }
-                }
-            }
-        };
+        MouseInputAdapter mia;
+        mia = new MouseInputAdapter()
+{
+@Override
+public void mousePressed(MouseEvent e) 
+{
+for (Virsune v : virsunes) 
+{
+  if (new java.awt.Rectangle(v.getX(), v.getY(),20,20).contains(e.getX(), e.getY())) 
+  {
+      v.setMoving(true);
+  }
+}
+}
+
+@Override
+public void mouseReleased(MouseEvent e) 
+{
+for (Virsune v : virsunes) 
+{
+  v.setMoving(false);
+}
+}
+
+@Override
+public void mouseDragged(MouseEvent e) 
+{
+
+for (Virsune v : virsunes) 
+{
+  if (v.isMoving()) 
+  {
+      boolean move = true;
+      int x = e.getX();
+      int y = e.getY();
+      if(x < 0 || x > plotis-20 || y < 0 || y > ilgis-20)//20 - virsunes skersmuo atvaizduojant
+      {
+          logger.log(Level.WARNING, "Bandoma viršūnę nustumti už ribų");
+          move = false;
+      }else
+      {
+          for (Virsune vk : virsunes) 
+          {
+              if (!vk.isMoving()) 
+              {
+                  int dx = vk.getX() - (x-10);//centras
+                  int dy = vk.getY() - (y-10);//centras
+                  if ((dx*dx+dy*dy<=20*20)) 
+                  {
+                      logger.log(Level.WARNING, "Bandoma viršūnę uždėti ant kitos viršūnės");
+                      move = false;
+                      break;
+                  }
+              }
+          }
+      }
+      if (move) 
+      {
+          logger.log(Level.INFO, "Viršūnė perkelta į {0}x{1}", new Object[]{x, y});
+          v.setX(x);
+          v.setY(y);
+          repaint();
+      }
+      break;
+  }
+}
+}
+};
         addMouseListener(mia);
         addMouseMotionListener(mia);
+    }
+    
+    public void keistiDydi(int plo, int ilg)
+    {
+        plotis=plo;
+        ilgis=ilg;
     }
     
     public void atvaizduotiVirsunes(Virsune[] virs)

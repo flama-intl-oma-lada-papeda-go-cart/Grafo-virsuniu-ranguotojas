@@ -8,7 +8,7 @@ package grafovirsuniuranguotojas;
  *
  * @author Paulius Šukys
  */
-class Virsune 
+class Virsune
 {
     private int x;
     private int y;

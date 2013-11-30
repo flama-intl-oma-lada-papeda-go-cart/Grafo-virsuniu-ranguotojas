@@ -2,6 +2,7 @@ package grafovirsuniuranguotojas;
 
 import java.awt.*;
 import java.awt.event.*;
+import java.util.logging.Level;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
@@ -119,17 +120,28 @@ public class GUI implements ActionListener
         
         // lango matmenu paruošimas
         int[] m = gautiLangoMatmenis();
-        logger.info("Lango matmenys: " + Integer.toString(m[0]) +"x" + Integer.toString(m[1]));
+        logger.log(Level.INFO, "Lango matmenys: {0}x{1}", new Object[]{Integer.toString(m[0]), Integer.toString(m[1])});
         pagrLangas.setSize(m[0],m[1]);
         
         // meniu paruošimas
         paruostiMeniu();
-        grafoPanele = new GrafoPanele(m[0], m[1]);
+        grafoPanele = new GrafoPanele(m[0], (int)(m[1]-meniuJuosta.getSize().getHeight()));
         Virsune[] virsunes = new Virsune[]{new Virsune(0,0,0,new int[]{1}, false), 
                                            new Virsune(0,0,1,new int[]{2}, false), 
                                            new Virsune(0,0,2,new int[]{0}, false)};
         grafoPanele.atvaizduotiVirsunes(virsunes);
         pagrLangas.add(grafoPanele);
+        pagrLangas.addComponentListener(new ComponentAdapter() 
+                {
+                    @Override
+                    public void componentResized(ComponentEvent e)
+                    {
+                        int nx = pagrLangas.getWidth();
+                        int ny = pagrLangas.getHeight();
+                        logger.log(Level.INFO, "Kei\u010diami lango matmenys \u012f {0}x{1}, meniu aukštis: {2}", new Object[]{nx, ny, meniuJuosta.getSize().getHeight()});
+                        grafoPanele.keistiDydi(nx, (int)(ny-meniuJuosta.getSize().getHeight()));
+                    }
+                });
         pagrLangas.setVisible(true);
     }
 }
