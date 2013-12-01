@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2013-11-29T15:35:33</date>
-  <millis>1385732133513</millis>
+  <date>2013-12-01T01:01:51</date>
+  <millis>1385852511379</millis>
   <sequence>0</sequence>
   <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Logeris sėkmingai paruoštas darbui.</message>
 </record>
 <record>
-  <date>2013-11-29T15:35:33</date>
-  <millis>1385732133525</millis>
+  <date>2013-12-01T01:01:51</date>
+  <millis>1385852511392</millis>
   <sequence>1</sequence>
   <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
   <level>INFO</level>
@@ -24,8 +24,8 @@
   <message>Ruošiama grafinė sąsaja.</message>
 </record>
 <record>
-  <date>2013-11-29T15:35:33</date>
-  <millis>1385732133627</millis>
+  <date>2013-12-01T01:01:51</date>
+  <millis>1385852511512</millis>
   <sequence>2</sequence>
   <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
   <level>INFO</level>

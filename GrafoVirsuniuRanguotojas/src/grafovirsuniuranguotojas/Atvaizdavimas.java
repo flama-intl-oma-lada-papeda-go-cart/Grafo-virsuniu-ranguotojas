@@ -1,6 +1,17 @@
 package grafovirsuniuranguotojas;
 
+import java.awt.AWTException;
+import java.awt.Container;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.LinkedList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.imageio.ImageIO;
+import javax.swing.JPanel;
 
 
 /**
@@ -10,21 +21,29 @@ import java.util.LinkedList;
  */
 public class Atvaizdavimas
 {
-    LinkedList r = null;//cia ateina Alberto metodas
-    
+    protected static final Logger logger = GrafoVirsuniuRanguotojas.LOGGER;
     /**
      * Sukuria paveikslą iš turimo ranguoto sąrašo
      * @param pavadinimas
      * @return 
      */
-    String kurtiPaveiksla(String pavadinimas)
+    String kurtiPaveiksla(String pavadinimas, JPanel grafoPanele)
     {
         try
         {
-            
-        }catch (Exception e)
+            File failas = new File(pavadinimas);
+            if (!failas.exists())
+            {
+                failas.createNewFile();
+            }
+            BufferedImage pav = new BufferedImage(grafoPanele.getWidth(),
+                grafoPanele.getHeight(),
+                BufferedImage.TYPE_INT_ARGB);
+            grafoPanele.paint(pav.getGraphics());
+            ImageIO.write(pav, "png", failas);
+        }catch (IOException e)
         {
-            
+            logger.log(Level.ALL, "Klaida kuriant paveikslėlį: {0}\n{1}", new Object[]{e.getCause(), e.getStackTrace()});
         }
         return null;
     }

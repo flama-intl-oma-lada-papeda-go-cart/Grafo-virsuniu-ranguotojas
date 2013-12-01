@@ -89,8 +89,9 @@ public class GUI implements ActionListener
         isvedimoMeniu.add(isvSub_tekstMeniu);
         
         // paveikslėlių submeniu
-        JMenu isbSub_pavMeniu = new JMenu("Paveikslėlis");
-        isvedimoMeniu.add(isbSub_pavMeniu);
+        JMenuItem isvSub_pavIrasas = new JMenuItem("Paveikslėlis");
+        isvSub_pavIrasas.addActionListener((ActionListener)this);
+        isvedimoMeniu.add(isvSub_pavIrasas);
         
         pagrLangas.setJMenuBar(meniuJuosta);
     }
@@ -103,8 +104,13 @@ public class GUI implements ActionListener
         switch(pasirinkimas.getText())
         {
             case "Išeiti":
-                logger.info("Programos darbo pabaiga.");
+                logger.log(Level.INFO, "Programos darbo pabaiga.");
                 System.exit(0);
+                break;
+            case "Paveikslėlis":
+                logger.log(Level.INFO, "Išsaugojamas grafas į paveikslėlį");
+                Atvaizdavimas atv = new Atvaizdavimas();
+                atv.kurtiPaveiksla("Paveikslelis", grafoPanele);
                 break;
         }
     }
