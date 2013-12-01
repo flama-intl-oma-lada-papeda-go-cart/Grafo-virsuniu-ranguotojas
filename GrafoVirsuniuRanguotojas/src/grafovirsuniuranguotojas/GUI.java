@@ -10,6 +10,11 @@ import javax.swing.JMenuBar;
 
 // perimamas logeris
 import java.util.logging.Logger;
+import javax.swing.JFileChooser;
+import java.awt.image.ImageFilter;
+import java.io.File;
+import java.io.FileFilter;
+import javax.swing.JPanel;
 
 /**
  * Grafinės sąsajos klasė
@@ -34,6 +39,8 @@ public class GUI implements ActionListener
     // logeris
     protected static final Logger logger = GrafoVirsuniuRanguotojas.LOGGER;
     
+    //langas failų pasirinkimui
+    JFileChooser fc;
     /**
      * Grąžina kokius lango matmenis reikia parinkti
      * @return ekrano matmenų matrica: [0] - plotis, [1] - aukstis
@@ -110,8 +117,52 @@ public class GUI implements ActionListener
             case "Paveikslėlis":
                 logger.log(Level.INFO, "Išsaugojamas grafas į paveikslėlį");
                 Atvaizdavimas atv = new Atvaizdavimas();
-                atv.kurtiPaveiksla("Paveikslelis", grafoPanele);
+                fc = new JFileChooser();
+                javax.swing.filechooser.FileFilter imageFilter = new javax.swing.filechooser.FileFilter()
+                {
+                    @Override
+                    public
+                    boolean accept(File pathname)
+                    {
+                        return pathname.getName().endsWith(".jpg") || pathname.getName().endsWith(".png") || pathname.getName().endsWith(".gif") || pathname.isDirectory();
+                    }
+
+                    @Override
+                    public
+                    String getDescription()
+                    {
+                        return "PNG, GIF paveikslėlis";
+                    }
+                };
+                fc.addChoosableFileFilter(imageFilter);
+                fc.setFileFilter(imageFilter);
+                //fc.setAcceptAllFileFilterUsed(false);
+                JPanel tmp = new JPanel();
+                int saugojimoAts = fc.showSaveDialog(tmp);
+                if (saugojimoAts == JFileChooser.APPROVE_OPTION)
+                {
+                    logger.log(Level.INFO, "Pasirinkta saugoti į {0}", fc.getSelectedFile());
+                    String formatas = gautiFormata(fc.getSelectedFile().toString());
+                    atv.kurtiPaveiksla(fc.getSelectedFile().toString(), formatas, grafoPanele);
+                }
                 break;
+        }
+    }
+    
+    /**
+     * Nuskaito failo pavadinimą
+     * @param file failo pavadinimas
+     * @return formatas gif, png arba jpg, (jpg taip pat, jeigu nenurodytas)
+     * @since 2013-12-01
+     */
+    private String gautiFormata(String file)
+    {
+        if (file.contains("."))
+        {
+            return file.substring(file.lastIndexOf(".")+1, file.length());
+        }else
+        {
+            return "gif";
         }
     }
     

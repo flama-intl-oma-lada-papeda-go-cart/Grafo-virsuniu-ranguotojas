@@ -27,7 +27,7 @@ public class Atvaizdavimas
      * @param pavadinimas
      * @return 
      */
-    String kurtiPaveiksla(String pavadinimas, JPanel grafoPanele)
+    String kurtiPaveiksla(String pavadinimas, String formatas, JPanel grafoPanele)
     {
         try
         {
@@ -40,7 +40,7 @@ public class Atvaizdavimas
                 grafoPanele.getHeight(),
                 BufferedImage.TYPE_INT_ARGB);
             grafoPanele.paint(pav.getGraphics());
-            ImageIO.write(pav, "png", failas);
+            ImageIO.write(pav, formatas, failas);
         }catch (IOException e)
         {
             logger.log(Level.ALL, "Klaida kuriant paveikslėlį: {0}\n{1}", new Object[]{e.getCause(), e.getStackTrace()});

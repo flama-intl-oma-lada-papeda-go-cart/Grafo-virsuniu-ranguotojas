@@ -75,8 +75,8 @@ for (Virsune v : virsunes)
           {
               if (!vk.isMoving()) 
               {
-                  int dx = vk.getX() - (x-10);//centras
-                  int dy = vk.getY() - (y-10);//centras
+                  int dx = vk.getX() - x;//centras
+                  int dy = vk.getY() - y;//centras
                   if ((dx*dx+dy*dy<=20*20)) 
                   {
                       logger.log(Level.WARNING, "Bandoma viršūnę uždėti ant kitos viršūnės");
