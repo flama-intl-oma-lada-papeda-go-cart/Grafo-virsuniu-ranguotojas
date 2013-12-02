@@ -1,13 +1,11 @@
 package grafovirsuniuranguotojas;
 
-import java.awt.AWTException;
-import java.awt.Container;
-import java.awt.Rectangle;
-import java.awt.Robot;
+
 import java.awt.image.BufferedImage;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
-import java.util.LinkedList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
@@ -22,12 +20,22 @@ import javax.swing.JPanel;
 public class Atvaizdavimas
 {
     protected static final Logger logger = GrafoVirsuniuRanguotojas.LOGGER;
+    private Virsune[] virsunes;
+    
+    public Atvaizdavimas(Virsune v[])
+    {
+        virsunes = v;
+    }
+    
     /**
      * Sukuria paveikslą iš turimo ranguoto sąrašo
-     * @param pavadinimas
+     * @param pavadinimas kelias iki paveiksliuko
+     * @param formatas paveiksliuko formatas
+     * @param grafoPanele panelė, kurios atvaizdas bus saugojamas
      * @return 
+     * @since 2013-10-10
      */
-    String kurtiPaveiksla(String pavadinimas, String formatas, JPanel grafoPanele)
+    void kurtiPaveiksla(String pavadinimas, String formatas, JPanel grafoPanele)
     {
         try
         {
@@ -45,38 +53,38 @@ public class Atvaizdavimas
         {
             logger.log(Level.ALL, "Klaida kuriant paveikslėlį: {0}\n{1}", new Object[]{e.getCause(), e.getStackTrace()});
         }
-        return null;
     }
     /**
      * Sukuria tekstinį failą iš turimo ranguoto sąrašo.
-     * @param pavadinimas
+     * @param pavadinimas kelias iki failo
      * @return 
+     * @since 2013-10-10
      */
-    String kurtiTeksta(String pavadinimas)
+    void kurtiTeksta(String pavadinimas)
     {
         try
         {
-            
-        }catch (Exception e)
+            File failas = new File(pavadinimas);
+            BufferedWriter failoSrautas = new BufferedWriter(new FileWriter(failas));
+            int i = 1;
+            for(Virsune v : virsunes)
+            {
+                failoSrautas.write("Viršūnė #" + i + ", rangas: " + v.getRangas() + "\n");
+                i++;
+            }
+            failoSrautas.close();
+        }catch (IOException e)
         {
-            
+            logger.log(Level.ALL, "Klaida įrašant duomenis į failą: {0}\n{1}", new Object[]{e.getCause().toString(), e.getStackTrace().toString()});
         }
-        return null;
     }
+    
     /**
-     * Sukuria java programėlę, kur galima interaktyviai peržiūrėti ranguotą sąrašą.
-     * @param pavadinimas
-     * @return 
+     * Sukuria tekstinį failą, kur duomenys išdėstyti XML formatu
+     * @param pavadinimas kelias iki failo
      */
-    String kurtiApp(String pavadinimas)
+    void kurtiXML(String pavadinimas)
     {
-        try
-        {
-            
-        }catch (Exception e)
-        {
-            
-        }
-        return null;
+        
     }
 }

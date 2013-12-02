@@ -6,6 +6,8 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.Dimension;
 import java.awt.Graphics;
+import java.awt.Polygon;
+import java.awt.geom.AffineTransform;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.event.MouseInputAdapter;
@@ -88,7 +90,6 @@ for (Virsune v : virsunes)
       }
       if (move) 
       {
-          logger.log(Level.INFO, "Viršūnė perkelta į {0}x{1}", new Object[]{x, y});
           v.setX(x);
           v.setY(y);
           repaint();
@@ -137,18 +138,56 @@ for (Virsune v : virsunes)
             for (int rysys : v.getRysiai()) 
             {
                 g.setColor(Color.BLACK);
-                g.drawLine(v.getX()+10, v.getY()+10, virsunes[rysys].getX()+10, virsunes[rysys].getY()+10);   
+                g.drawLine(v.getX()+10, v.getY()+10, virsunes[rysys].getX()+10, virsunes[rysys].getY()+10);
+                piestiRodykle(g, v.getX()+10, v.getY()+10, virsunes[rysys].getX()+10, virsunes[rysys].getY()+10);
             }
         }
-        
+        int i = 0;
         for (Virsune v : virsunes) 
         {
             g.setColor(Color.DARK_GRAY);
             g.fillOval(v.getX(), v.getY(), 20, 20);
             g.setColor(Color.WHITE);
-            int raidziuPlotis = 5*((int)(v.getRangas()/10)+1);
-            g.drawString(new Integer(v.getRangas()).toString(), v.getX()+((20-raidziuPlotis)/2), v.getY()+15);
+            int raidziuPlotis = 3*((int)(v.getRangas()/10)+1);
+            g.drawString(Integer.toString(i), v.getX()+((20-raidziuPlotis)/2), v.getY()+15);
+            i++;
         }
 
     } 
+    
+    /**
+     * 
+     * @param g grafikos modelis
+     * @param teta tangente
+     * @param x0 galo koordinate x
+     * @param y0 galo koordinate y
+     */
+    private void piestiRodykle(Graphics g, int x0, int y0, int x1, int y1)
+    {
+        final int RODYKLES_ILGIS = 20;
+        double RODYKLES_KAMPAS = Math.toRadians(30);
+        int dx = x1 - x0;
+        int dy = y1 - y0;
+
+        double theta = Math.atan2(dy, dx);
+
+        double x = x1 - RODYKLES_ILGIS * Math.cos(theta + RODYKLES_KAMPAS);
+        double y = y1 - RODYKLES_ILGIS * Math.sin(theta + RODYKLES_KAMPAS);
+
+        RODYKLES_KAMPAS = Math.toRadians(-30);//-35 angle, can be adjusted
+        double x2 = x1 - RODYKLES_ILGIS * Math.cos(theta + RODYKLES_KAMPAS);
+        double y2 = y1 - RODYKLES_ILGIS * Math.sin(theta + RODYKLES_KAMPAS);
+
+        int[] arrowYs = new int[3];
+        arrowYs[0] = y1;
+        arrowYs[1] = (int) y;
+        arrowYs[2] = (int) y2;
+
+        int[] arrowXs = new int[3];
+        arrowXs[0] = x1;
+        arrowXs[1] = (int) x;
+        arrowXs[2] = (int) x2;
+
+        g.fillPolygon(arrowXs, arrowYs, 3);
+    }
 }

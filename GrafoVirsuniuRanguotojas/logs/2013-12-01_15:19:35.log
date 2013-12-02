@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2013-12-01T15:19:35</date>
+  <millis>1385903975170</millis>
+  <sequence>0</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</class>
+  <method>paruostiLogeri</method>
+  <thread>1</thread>
+  <message>Logeris sėkmingai paruoštas darbui.</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:35</date>
+  <millis>1385903975184</millis>
+  <sequence>1</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI</class>
+  <method>paruostiGUI</method>
+  <thread>1</thread>
+  <message>Ruošiama grafinė sąsaja.</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:35</date>
+  <millis>1385903975302</millis>
+  <sequence>2</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI</class>
+  <method>paruostiGUI</method>
+  <thread>1</thread>
+  <message>Lango matmenys: 921x520</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:35</date>
+  <millis>1385903975450</millis>
+  <sequence>3</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI$2</class>
+  <method>componentResized</method>
+  <thread>13</thread>
+  <message>Keičiami lango matmenys į 911x490, meniu aukštis: 21</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:35</date>
+  <millis>1385903975521</millis>
+  <sequence>4</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI$2</class>
+  <method>componentResized</method>
+  <thread>13</thread>
+  <message>Keičiami lango matmenys į 921x520, meniu aukštis: 21</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:35</date>
+  <millis>1385903975602</millis>
+  <sequence>5</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI$2</class>
+  <method>componentResized</method>
+  <thread>13</thread>
+  <message>Keičiami lango matmenys į 921x520, meniu aukštis: 21</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977091</millis>
+  <sequence>6</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 295x131</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977098</millis>
+  <sequence>7</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 301x131</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977105</millis>
+  <sequence>8</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 311x130</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977114</millis>
+  <sequence>9</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 323x130</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977122</millis>
+  <sequence>10</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 338x129</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977129</millis>
+  <sequence>11</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 353x128</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977137</millis>
+  <sequence>12</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 370x128</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977145</millis>
+  <sequence>13</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 387x128</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977153</millis>
+  <sequence>14</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 404x128</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977162</millis>
+  <sequence>15</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 420x128</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977169</millis>
+  <sequence>16</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 436x128</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977177</millis>
+  <sequence>17</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 450x126</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977185</millis>
+  <sequence>18</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 460x123</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977193</millis>
+  <sequence>19</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 466x122</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977202</millis>
+  <sequence>20</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 471x120</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977210</millis>
+  <sequence>21</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 476x117</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977217</millis>
+  <sequence>22</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 477x117</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977241</millis>
+  <sequence>23</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 478x117</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977249</millis>
+  <sequence>24</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 479x117</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977306</millis>
+  <sequence>25</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 480x117</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977313</millis>
+  <sequence>26</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 481x117</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977322</millis>
+  <sequence>27</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 484x121</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977329</millis>
+  <sequence>28</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 490x125</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977337</millis>
+  <sequence>29</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 496x130</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977345</millis>
+  <sequence>30</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 502x135</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977353</millis>
+  <sequence>31</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 507x139</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977361</millis>
+  <sequence>32</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 512x143</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977369</millis>
+  <sequence>33</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 515x147</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977377</millis>
+  <sequence>34</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 516x149</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977386</millis>
+  <sequence>35</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 518x153</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977394</millis>
+  <sequence>36</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 520x157</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977405</millis>
+  <sequence>37</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 520x160</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977410</millis>
+  <sequence>38</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 520x164</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977417</millis>
+  <sequence>39</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 520x167</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977425</millis>
+  <sequence>40</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 520x171</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977433</millis>
+  <sequence>41</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 520x175</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977441</millis>
+  <sequence>42</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 520x177</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977450</millis>
+  <sequence>43</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 520x179</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977458</millis>
+  <sequence>44</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 520x180</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977465</millis>
+  <sequence>45</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 518x181</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977474</millis>
+  <sequence>46</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 517x182</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977481</millis>
+  <sequence>47</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 516x182</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977498</millis>
+  <sequence>48</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 515x182</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:37</date>
+  <millis>1385903977508</millis>
+  <sequence>49</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 514x182</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978162</millis>
+  <sequence>50</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 824x269</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978170</millis>
+  <sequence>51</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 824x271</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978178</millis>
+  <sequence>52</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 824x274</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978187</millis>
+  <sequence>53</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 822x276</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978195</millis>
+  <sequence>54</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 820x279</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978201</millis>
+  <sequence>55</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 818x283</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978209</millis>
+  <sequence>56</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 814x286</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978217</millis>
+  <sequence>57</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 809x289</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978225</millis>
+  <sequence>58</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 802x293</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978233</millis>
+  <sequence>59</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 792x297</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978241</millis>
+  <sequence>60</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 783x301</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978250</millis>
+  <sequence>61</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 773x304</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978257</millis>
+  <sequence>62</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 764x307</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978265</millis>
+  <sequence>63</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 755x311</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978274</millis>
+  <sequence>64</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 746x313</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978283</millis>
+  <sequence>65</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 739x317</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978289</millis>
+  <sequence>66</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 730x320</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978297</millis>
+  <sequence>67</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 721x323</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978305</millis>
+  <sequence>68</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 712x327</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978314</millis>
+  <sequence>69</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 704x331</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978322</millis>
+  <sequence>70</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 695x335</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978330</millis>
+  <sequence>71</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 686x337</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978338</millis>
+  <sequence>72</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 680x340</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978346</millis>
+  <sequence>73</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 674x343</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978356</millis>
+  <sequence>74</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 671x346</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978363</millis>
+  <sequence>75</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 668x350</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978370</millis>
+  <sequence>76</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 665x353</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978378</millis>
+  <sequence>77</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 662x355</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978385</millis>
+  <sequence>78</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 660x357</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978393</millis>
+  <sequence>79</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 658x360</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978401</millis>
+  <sequence>80</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 655x363</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978410</millis>
+  <sequence>81</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 652x365</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978418</millis>
+  <sequence>82</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 649x368</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978426</millis>
+  <sequence>83</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 648x370</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978433</millis>
+  <sequence>84</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 647x371</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978441</millis>
+  <sequence>85</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 645x373</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978449</millis>
+  <sequence>86</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 644x375</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978457</millis>
+  <sequence>87</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 643x376</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978465</millis>
+  <sequence>88</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 642x378</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978474</millis>
+  <sequence>89</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 642x379</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978482</millis>
+  <sequence>90</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 641x380</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978489</millis>
+  <sequence>91</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 640x380</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978498</millis>
+  <sequence>92</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 638x381</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978506</millis>
+  <sequence>93</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 637x382</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978515</millis>
+  <sequence>94</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 636x383</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978522</millis>
+  <sequence>95</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 636x384</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978529</millis>
+  <sequence>96</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 635x385</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978538</millis>
+  <sequence>97</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 635x386</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978547</millis>
+  <sequence>98</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 634x388</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978553</millis>
+  <sequence>99</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 633x390</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978561</millis>
+  <sequence>100</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 633x391</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978569</millis>
+  <sequence>101</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 633x393</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978577</millis>
+  <sequence>102</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 632x394</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978585</millis>
+  <sequence>103</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 632x395</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978593</millis>
+  <sequence>104</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 631x396</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978602</millis>
+  <sequence>105</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 630x397</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978609</millis>
+  <sequence>106</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 629x398</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978617</millis>
+  <sequence>107</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 628x399</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:38</date>
+  <millis>1385903978625</millis>
+  <sequence>108</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele$1</class>
+  <method>mouseDragged</method>
+  <thread>13</thread>
+  <message>Viršūnė perkelta į 627x400</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:40</date>
+  <millis>1385903980024</millis>
+  <sequence>109</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI</class>
+  <method>actionPerformed</method>
+  <thread>13</thread>
+  <message>Išsaugojamas grafas į paveikslėlį</message>
+</record>
+<record>
+  <date>2013-12-01T15:19:48</date>
+  <millis>1385903988310</millis>
+  <sequence>110</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI</class>
+  <method>actionPerformed</method>
+  <thread>13</thread>
+  <message>Pasirinkta saugoti į /home/shookees/Jonas.gif</message>
+</record>
+<record>
+  <date>2013-12-01T15:20:12</date>
+  <millis>1385904012732</millis>
+  <sequence>111</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI</class>
+  <method>actionPerformed</method>
+  <thread>13</thread>
+  <message>Išsaugojamas grafas į paveikslėlį</message>
+</record>
+<record>
+  <date>2013-12-01T15:22:10</date>
+  <millis>1385904130505</millis>
+  <sequence>112</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI</class>
+  <method>actionPerformed</method>
+  <thread>13</thread>
+  <message>Išsaugojamas grafas į paveikslėlį</message>
+</record>
+<record>
+  <date>2013-12-01T15:22:14</date>
+  <millis>1385904134894</millis>
+  <sequence>113</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI</class>
+  <method>actionPerformed</method>
+  <thread>13</thread>
+  <message>Pasirinkta saugoti į /home/shookees/jonas</message>
+</record>
+</log>

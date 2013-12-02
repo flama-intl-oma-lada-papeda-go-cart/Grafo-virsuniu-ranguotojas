@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2013-12-01T21:34:05</date>
+  <millis>1385926445828</millis>
+  <sequence>0</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</class>
+  <method>paruostiLogeri</method>
+  <thread>1</thread>
+  <message>Logeris sėkmingai paruoštas darbui.</message>
+</record>
+<record>
+  <date>2013-12-01T21:34:05</date>
+  <millis>1385926445840</millis>
+  <sequence>1</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI</class>
+  <method>paruostiGUI</method>
+  <thread>1</thread>
+  <message>Ruošiama grafinė sąsaja.</message>
+</record>
+<record>
+  <date>2013-12-01T21:34:05</date>
+  <millis>1385926445947</millis>
+  <sequence>2</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI</class>
+  <method>paruostiGUI</method>
+  <thread>1</thread>
+  <message>Lango matmenys: 921x520</message>
+</record>
+<record>
+  <date>2013-12-01T21:34:06</date>
+  <millis>1385926446105</millis>
+  <sequence>3</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI$2</class>
+  <method>componentResized</method>
+  <thread>13</thread>
+  <message>Keičiami lango matmenys į 921x520, meniu aukštis: 21</message>
+</record>
+<record>
+  <date>2013-12-01T21:34:06</date>
+  <millis>1385926446136</millis>
+  <sequence>4</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele</class>
+  <method>piestiRodykle</method>
+  <thread>13</thread>
+  <message>0 koordinatės 131x131 ir 152x143</message>
+</record>
+<record>
+  <date>2013-12-01T21:34:06</date>
+  <millis>1385926446137</millis>
+  <sequence>5</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele</class>
+  <method>piestiRodykle</method>
+  <thread>13</thread>
+  <message>1 koordinatės 131x131 ir 152x143</message>
+</record>
+<record>
+  <date>2013-12-01T21:34:06</date>
+  <millis>1385926446139</millis>
+  <sequence>6</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele</class>
+  <method>piestiRodykle</method>
+  <thread>13</thread>
+  <message>0 koordinatės 269x269 ir 259x245</message>
+</record>
+<record>
+  <date>2013-12-01T21:34:06</date>
+  <millis>1385926446140</millis>
+  <sequence>7</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele</class>
+  <method>piestiRodykle</method>
+  <thread>13</thread>
+  <message>1 koordinatės 269x269 ir 259x245</message>
+</record>
+<record>
+  <date>2013-12-01T21:34:06</date>
+  <millis>1385926446144</millis>
+  <sequence>8</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI$2</class>
+  <method>componentResized</method>
+  <thread>13</thread>
+  <message>Keičiami lango matmenys į 921x520, meniu aukštis: 21</message>
+</record>
+<record>
+  <date>2013-12-01T21:34:06</date>
+  <millis>1385926446199</millis>
+  <sequence>9</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GUI$2</class>
+  <method>componentResized</method>
+  <thread>13</thread>
+  <message>Keičiami lango matmenys į 921x520, meniu aukštis: 21</message>
+</record>
+<record>
+  <date>2013-12-01T21:34:06</date>
+  <millis>1385926446203</millis>
+  <sequence>10</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele</class>
+  <method>piestiRodykle</method>
+  <thread>13</thread>
+  <message>0 koordinatės 131x131 ir 152x143</message>
+</record>
+<record>
+  <date>2013-12-01T21:34:06</date>
+  <millis>1385926446205</millis>
+  <sequence>11</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele</class>
+  <method>piestiRodykle</method>
+  <thread>13</thread>
+  <message>1 koordinatės 131x131 ir 152x143</message>
+</record>
+<record>
+  <date>2013-12-01T21:34:06</date>
+  <millis>1385926446209</millis>
+  <sequence>12</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele</class>
+  <method>piestiRodykle</method>
+  <thread>13</thread>
+  <message>0 koordinatės 269x269 ir 259x245</message>
+</record>
+<record>
+  <date>2013-12-01T21:34:06</date>
+  <millis>1385926446212</millis>
+  <sequence>13</sequence>
+  <logger>grafovirsuniuranguotojas.GrafoVirsuniuRanguotojas</logger>
+  <level>INFO</level>
+  <class>grafovirsuniuranguotojas.GrafoPanele</class>
+  <method>piestiRodykle</method>
+  <thread>13</thread>
+  <message>1 koordinatės 269x269 ir 259x245</message>
+</record>
+</log>

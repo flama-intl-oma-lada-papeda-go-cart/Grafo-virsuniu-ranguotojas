@@ -13,7 +13,6 @@ import java.util.logging.Logger;
 import javax.swing.JFileChooser;
 import java.awt.image.ImageFilter;
 import java.io.File;
-import java.io.FileFilter;
 import javax.swing.JPanel;
 
 /**
@@ -41,6 +40,8 @@ public class GUI implements ActionListener
     
     //langas failų pasirinkimui
     JFileChooser fc;
+    
+    Virsune[] virsunes;
     /**
      * Grąžina kokius lango matmenis reikia parinkti
      * @return ekrano matmenų matrica: [0] - plotis, [1] - aukstis
@@ -73,8 +74,18 @@ public class GUI implements ActionListener
         
         // informacijos apie programą meniu
         progMeniu = new JMenu("Programa");
-        progMeniu.getAccessibleContext().setAccessibleDescription("Informacija apie programą");
+        progMeniu.getAccessibleContext().setAccessibleDescription("Programos meniu");
         meniuJuosta.add(progMeniu);
+        
+        //Vartotojo pagalba
+        JMenuItem pagalIrasas = new JMenuItem("Pagalba");
+        pagalIrasas.addActionListener((ActionListener)this);
+        progMeniu.add(pagalIrasas);
+        
+        //Apie
+        JMenuItem apieIrasas = new JMenuItem("Apie");
+        apieIrasas.addActionListener((ActionListener)this);
+        progMeniu.add(apieIrasas);
         
         //baigti programos darbą
         JMenuItem isejimoIrasas = new JMenuItem("Išeiti");
@@ -92,13 +103,20 @@ public class GUI implements ActionListener
         meniuJuosta.add(isvedimoMeniu);
         
         // tekstinių failų submeniu
-        JMenu isvSub_tekstMeniu = new JMenu("Tekstinis failas");
-        isvedimoMeniu.add(isvSub_tekstMeniu);
+        JMenuItem isvSub_tekstIrasas = new JMenuItem("Tekstinis failas");
+        isvSub_tekstIrasas.addActionListener((ActionListener)this);
+        isvedimoMeniu.add(isvSub_tekstIrasas);
+        
+        // tekstinių failų submeniu
+        JMenuItem isvSub_xmlIrasas = new JMenuItem("XML failas");
+        isvSub_xmlIrasas.addActionListener((ActionListener)this);
+        isvedimoMeniu.add(isvSub_xmlIrasas);
         
         // paveikslėlių submeniu
         JMenuItem isvSub_pavIrasas = new JMenuItem("Paveikslėlis");
         isvSub_pavIrasas.addActionListener((ActionListener)this);
         isvedimoMeniu.add(isvSub_pavIrasas);
+        
         
         pagrLangas.setJMenuBar(meniuJuosta);
     }
@@ -108,6 +126,8 @@ public class GUI implements ActionListener
     {
         JMenuItem pasirinkimas = (JMenuItem)(e.getSource());
         //šitas reikalas veikia tik su java7 :)))
+        Atvaizdavimas atv;
+        JPanel tmp;
         switch(pasirinkimas.getText())
         {
             case "Išeiti":
@@ -116,7 +136,7 @@ public class GUI implements ActionListener
                 break;
             case "Paveikslėlis":
                 logger.log(Level.INFO, "Išsaugojamas grafas į paveikslėlį");
-                Atvaizdavimas atv = new Atvaizdavimas();
+                atv = new Atvaizdavimas(virsunes);
                 fc = new JFileChooser();
                 javax.swing.filechooser.FileFilter imageFilter = new javax.swing.filechooser.FileFilter()
                 {
@@ -136,14 +156,38 @@ public class GUI implements ActionListener
                 };
                 fc.addChoosableFileFilter(imageFilter);
                 fc.setFileFilter(imageFilter);
-                //fc.setAcceptAllFileFilterUsed(false);
-                JPanel tmp = new JPanel();
+                fc.setAcceptAllFileFilterUsed(false);
+                tmp = new JPanel();
                 int saugojimoAts = fc.showSaveDialog(tmp);
                 if (saugojimoAts == JFileChooser.APPROVE_OPTION)
                 {
                     logger.log(Level.INFO, "Pasirinkta saugoti į {0}", fc.getSelectedFile());
                     String formatas = gautiFormata(fc.getSelectedFile().toString());
                     atv.kurtiPaveiksla(fc.getSelectedFile().toString(), formatas, grafoPanele);
+                }
+                break;
+            case "Tekstinis failas":
+                logger.log(Level.INFO, "Išsaugojamas grafas į tekstinį failą");
+                fc = new JFileChooser();
+                atv = new Atvaizdavimas(virsunes);
+                tmp = new JPanel();
+                saugojimoAts = fc.showSaveDialog(tmp);
+                if (saugojimoAts == JFileChooser.APPROVE_OPTION)
+                {
+                    logger.log(Level.INFO, "Pasirinkta saugoti į {0}", fc.getSelectedFile());
+                    atv.kurtiTeksta(fc.getSelectedFile().toString());
+                }
+                break;
+            case "XML failas":
+                logger.log(Level.INFO, "Išsaugojamas grafas į XML failą");
+                fc = new JFileChooser();
+                atv = new Atvaizdavimas(virsunes);
+                tmp = new JPanel();
+                saugojimoAts = fc.showSaveDialog(tmp);
+                if (saugojimoAts == JFileChooser.APPROVE_OPTION)
+                {
+                    logger.log(Level.INFO, "Pasirinkta saugoti į {0}", fc.getSelectedFile());
+                    atv.kurtiXML(fc.getSelectedFile().toString());
                 }
                 break;
         }
@@ -183,7 +227,7 @@ public class GUI implements ActionListener
         // meniu paruošimas
         paruostiMeniu();
         grafoPanele = new GrafoPanele(m[0], (int)(m[1]-meniuJuosta.getSize().getHeight()));
-        Virsune[] virsunes = new Virsune[]{new Virsune(0,0,0,new int[]{1}, false), 
+        virsunes = new Virsune[]{new Virsune(0,0,0,new int[]{1}, false), 
                                            new Virsune(0,0,1,new int[]{2}, false), 
                                            new Virsune(0,0,2,new int[]{0}, false)};
         grafoPanele.atvaizduotiVirsunes(virsunes);
