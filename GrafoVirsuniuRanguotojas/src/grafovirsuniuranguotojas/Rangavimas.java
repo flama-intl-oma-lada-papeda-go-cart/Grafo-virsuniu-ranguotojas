@@ -14,8 +14,9 @@ public class Rangavimas {
     List<Rangavimas> rezultatai = new LinkedList<Rangavimas>();
     private Patikrinimas patikrinimas;
     
-    int rang;   //Rangas
-    int[][] matrix={ { 0, 1, 1, -1, 0, 0 },
+    int[] pradines_virsunes; //pradiniu virsuniu sarasas, pvz [1,2,3]
+    int[] rangai;   //masyvas, kur indeksas - virsunes numeris; verte - rangas
+    int[][] matrica={ { 0, 1, 1, -1, 0, 0 },
                      { -1, 0, 0, 0, 0, 0 },
                      { -1, 0, 0, 0, -1, 0 },
                      { 1, 0, 0, 0, -1, 0 },
@@ -26,18 +27,18 @@ public class Rangavimas {
                         //Rezultatai, tikriausiai saraso tipo.
     
         
-    };
-
-    public static void imtiDuomenis(){
-        //Metodas, gauti duomenims. Gaunama matrica.
-        patikrinimas.gautiMatrica();
-    }
     
-    public static void ranguoti(){
+
+    //public static void imtiDuomenis(){
+        //Metodas, gauti duomenims. Gaunama matrica.
+        //patikrinimas.gautiMatrica();
+    //}
+    
+    public void ranguoti(){
         //Atliekami skaiciavimai, reikalingi suranguoti grafui.
     }
     
-    public static void siustiRezultatus(){ 
+    public void siustiRezultatus(){ 
         //Pateikiami apskaičiuoti rezultatai.
         //Jie pateikiami sarasu.
     }
