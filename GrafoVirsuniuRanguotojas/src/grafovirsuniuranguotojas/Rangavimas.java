@@ -22,8 +22,7 @@ public class Rangavimas {
                      { 0, 0, 0, 0, 0, 0 }
                      };
          //Duomenys, gaunami kaip matrica.
-                        //Rezultatai, tikriausiai saraso tipo.
-    
+                        //Rezultatai, tikriausiai saraso tipo.    
         
     
 
