@@ -85,6 +85,37 @@ public class Atvaizdavimas
      */
     void kurtiXML(String pavadinimas)
     {
-        
+        try
+        {
+            int pavGalas = pavadinimas.length();
+            if (!pavadinimas.substring(pavGalas-3, pavGalas).equals("xml"))
+            {
+                logger.info("Nenurodyta xml galūnė - pridedame");
+                pavadinimas += ".xml";
+            }
+            File failas = new File(pavadinimas);
+            BufferedWriter failoSrautas = new BufferedWriter(new FileWriter(failas));
+            int i = 1;
+            failoSrautas.write("<grafas>\n");
+            for(Virsune v : virsunes)
+            {
+                failoSrautas.write("    <virsune numeris=\"" + i + "\" rangas=\"" + v.getRangas() + "\">\n");
+                failoSrautas.write("         <rysiai>\n");
+                for(int r : v.getRysiai())
+                {
+                    failoSrautas.write("             <rysys>\n");
+                    failoSrautas.write("                 " + r + "\n");
+                    failoSrautas.write("             </rysys>\n");
+                }
+                failoSrautas.write("         </rysiai>\n");
+                failoSrautas.write("    </virsune>\n");
+                i++;
+            }
+            failoSrautas.write("</grafas>\n");
+            failoSrautas.close();
+        }catch (IOException e)
+        {
+            logger.log(Level.ALL, "Klaida įrašant duomenis į failą: {0}\n{1}", new Object[]{e.getCause().toString(), e.getStackTrace().toString()});
+        }
     }
 }
