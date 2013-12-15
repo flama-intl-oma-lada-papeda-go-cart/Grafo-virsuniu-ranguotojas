@@ -19,10 +19,10 @@ Trečią rangą turi viršūnės, į kurias ateina briaunos tik iš pirmo arba a
 Jeigu grafas turi ciklų panaikinti briaunas, kad ciklų neliktų.
 
 Atliko:
-- Albertas Dirmeikis,
-- Povilas Ivanovas,
-- Rimvydas Olšauskas,
-- Paulius Šukys.
+- Albertas Dirmeikis IFC-1,
+- Povilas Ivanovas IFC-1,
+- Rimvydas Olšauskas IFC-1,
+- Paulius Šukys IFC-1.
 
 Vadovas: Paulius Šukys
 
