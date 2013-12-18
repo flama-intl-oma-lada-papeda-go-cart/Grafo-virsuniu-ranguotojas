@@ -17,3 +17,13 @@ Pirmą rangą turi pradinės grafo viršūnės.
 Antrą rangą turi viršūnės į kurias ateina briaunos tik iš pirmo rango viršūnių. 
 Trečią rangą turi viršūnės, į kurias ateina briaunos tik iš pirmo arba antro rango viršūnių ir t. t. 
 Jeigu grafas turi ciklų panaikinti briaunas, kad ciklų neliktų.
+
+Atliko:
+- Albertas Dirmeikis IFC-1,
+- Povilas Ivanovas IFC-1,
+- Rimvydas Olšauskas IFC-1,
+- Paulius Šukys IFC-1.
+
+Vadovas: Paulius Šukys
+
+© KAUNO TECHNOLOGIJOS UNIVERSITETAS, 2013
